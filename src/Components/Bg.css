@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    position: absolute;
+    width: 50%; /* Adjust as needed */
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .content {
+    z-index: 1;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 3rem; /* Adjust as needed */
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 1.2rem; /* Adjust as needed */
+  }
+  

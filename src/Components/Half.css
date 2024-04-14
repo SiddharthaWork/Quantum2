@@ -1,0 +1,22 @@
+.half-page {
+    position: relative;
+    height: 50vh; /* Set the height to cover only half of the page */
+  }
+  
+  .background {
+    position: absolute;
+   
+    
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: top; /* Position the background image at the top */
+  }
+  
+  .content {
+    position: absolute;
+    
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
